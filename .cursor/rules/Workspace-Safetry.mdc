@@ -1,0 +1,33 @@
+---
+alwaysApply: true
+---
+
+# Workspace Safety
+
+## File System Boundaries
+
+Never create, modify, delete, or move any files or folders outside of:
+
+```
+/Users/marlonsarmiento/Desktop/mashita_spa
+```
+
+All work must stay within this directory. Do not touch system files, home directory files, or any path outside this project root.
+
+## GitHub Repository
+
+The remote repository for this project is:
+
+```
+https://github.com/brow51wss/mashitaspa.git
+```
+
+## Git Safety
+
+Never automatically run any of the following commands without explicit user instruction:
+
+- `git add`
+- `git commit`
+- `git push`
+
+Always wait for the user to explicitly ask before staging, committing, or pushing changes.
