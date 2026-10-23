@@ -41,10 +41,10 @@ export default function Nav() {
     <>
       <nav ref={navRef} className={`nav${scrolled ? ' scrolled' : ''}`}>
         <div className="container nav-row">
-          <a href="#top" className="brand" aria-label="Mashita Massage Spa">
+          <a href="#top" className="brand" aria-label="Maruva Massage Spa">
             <div className="brand-mark">M</div>
             <div className="brand-name">
-              <div className="name">MASHITA</div>
+              <div className="name">MARUVA</div>
               <div className="tag">Massage Spa</div>
             </div>
           </a>
@@ -66,7 +66,7 @@ export default function Nav() {
               </svg>
               +63 998 000 0000
             </span>
-            <a href="#contact" className="btn btn-primary">Book Now</a>
+            <a href="#contact" className="btn btn-primary nav-book">Book Now</a>
             <button
               className="nav-toggle"
               onClick={() => setMenuOpen((o) => !o)}

@@ -4,10 +4,10 @@ export default function Footer() {
       <div className="container">
         <div className="foot-grid">
           <div className="foot-about">
-            <a href="#top" className="brand" aria-label="Mashita Massage Spa">
+            <a href="#top" className="brand" aria-label="Maruva Massage Spa">
               <div className="brand-mark">M</div>
               <div className="brand-name">
-                <div className="name" style={{ color: 'var(--cream)' }}>MASHITA</div>
+                <div className="name" style={{ color: 'var(--cream)' }}>MARUVA</div>
                 <div className="tag">Massage Spa</div>
               </div>
             </a>
@@ -73,7 +73,7 @@ export default function Footer() {
         </div>
 
         <div className="foot-bottom">
-          <div>© 2026 Mashita Massage Spa · Batangas, Philippines</div>
+          <div>© 2026 Maruva Massage Spa · Batangas, Philippines</div>
           <div>Crafted with care · Privacy · Terms</div>
         </div>
       </div>

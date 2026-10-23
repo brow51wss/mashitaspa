@@ -15,7 +15,7 @@ export default function About() {
           <div className="about-img-a">
             <Image
               src="/about-room.png"
-              alt="Mashita Spa massage room lit by candles"
+              alt="Maruva Spa massage room lit by candles"
               fill
               style={{ objectFit: 'cover' }}
               sizes="(max-width: 960px) 64vw, 30vw"
@@ -40,13 +40,13 @@ export default function About() {
         </Reveal>
 
         <Reveal delay={1} className="about-text">
-          <div className="eyebrow" style={{ marginBottom: '22px' }}>About Mashita</div>
+          <div className="eyebrow" style={{ marginBottom: '22px' }}>About Maruva</div>
           <h2>
             A quiet retreat for body, mind, and{' '}
             <span className="accent">spirit</span>.
           </h2>
           <p>
-            Mashita Massage Spa was created for those who carry the weight of long days, tight
+            Maruva Massage Spa was created for those who carry the weight of long days, tight
             schedules, and tired bodies. We offer a warm, welcoming space in the heart of Batangas
             where you can step away from the noise and reconnect with yourself.
           </p>
@@ -71,7 +71,7 @@ export default function About() {
 
           <div className="about-signature">
             <div className="signature-script">Your wellness, our passion.</div>
-            <div className="signature-meta">— The Mashita Team</div>
+            <div className="signature-meta">— The Maruva Team</div>
           </div>
         </Reveal>
       </div>

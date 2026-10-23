@@ -58,7 +58,7 @@ export default function WhyChoose() {
       <div className="container">
         <Reveal className="sec-head">
           <div>
-            <div className="eyebrow">Why Choose Mashita</div>
+            <div className="eyebrow">Why Choose Maruva</div>
             <h2 style={{ marginTop: '22px' }}>
               Small details. <span className="accent">Big difference.</span>
             </h2>

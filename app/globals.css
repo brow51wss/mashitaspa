@@ -1243,8 +1243,23 @@ footer {
   background: var(--gold);
   transform: translateY(-2px);
 }
+.fab-book, .fab-messenger { display: none; }
+.fab-messenger {
+  width: 52px; height: 52px;
+  border-radius: 50%;
+  background: var(--gold);
+  color: white;
+  align-items: center;
+  justify-content: center;
+  box-shadow: var(--shadow-lg);
+  flex-shrink: 0;
+}
+.fab-book { box-shadow: var(--shadow-lg); white-space: nowrap; }
 @media (max-width: 960px) {
-  .fab-phone { display: flex; }
+  .fab-phone, .fab-messenger { display: flex; }
+  .fab-book { display: inline-flex; }
+  .fab-group .chat-fab { display: none; }
+  .nav-book { display: none; }
 }
 .chat-fab {
   background: var(--gold);

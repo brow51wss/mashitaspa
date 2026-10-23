@@ -56,7 +56,7 @@ export default function Hero() {
           <div className="hero-img-main">
             <Image
               src="/hero.png"
-              alt="Guest enjoying a relaxing massage at Mashita Spa"
+              alt="Guest enjoying a relaxing massage at Maruva Spa"
               fill
               style={{ objectFit: 'cover', objectPosition: 'center top' }}
               priority

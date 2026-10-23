@@ -2,11 +2,11 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Mashita Massage Spa — Relax. Rejuvenate. Revive.',
+  title: 'Maruva Massage Spa — Relax. Rejuvenate. Revive.',
   description:
     'Experience the healing touch of true relaxation. Skilled therapists, calming spaces, and treatments crafted to soothe stress and restore balance — body and mind. Located in Batangas, Philippines.',
   openGraph: {
-    title: 'Mashita Massage Spa',
+    title: 'Maruva Massage Spa',
     description: 'Relax. Rejuvenate. Revive. Premium massage and wellness in Batangas.',
     type: 'website',
   },
