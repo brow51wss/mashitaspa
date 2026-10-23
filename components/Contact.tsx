@@ -59,7 +59,7 @@ export default function Contact() {
               </div>
               <div>
                 <div className="lbl">Message</div>
-                <div className="val">hello@mashitamassagespa.com</div>
+                <div className="val">hello@maruvamassagespa.com</div>
               </div>
             </div>
           </div>
